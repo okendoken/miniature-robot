@@ -1,9 +1,12 @@
 //////////////////////////////////////
 //   Bootstrap variables override   //
 //////////////////////////////////////
-$sansFontFamily: 'Source Sans Pro', sans-serif;
+$sansFontFamily: 'Open Sans', sans-serif;
 
 $baseBorderRadius: 0;
+
+$gridColumnWidth1200:     60px !default;
+$gridGutterWidth1200:     20px !default;
 
 //////////////////////////////////////
 // Font Awesome Variables Override  //
@@ -14,3 +17,9 @@ $FontAwesomePath: 'font';
 //////////////////////////////////////
 //        Template Variables        //
 //////////////////////////////////////
+
+$gray: #555 !default;
+
+$lightGray: #f5f5f5;
+
+$textColorLight: $gray;
