@@ -30,3 +30,23 @@ input[type="color"],
     @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
   }
 }
+
+.label, .badge{
+  text-shadow: none;
+}
+
+.label{
+  @include border-radius($baseBorderRadius);
+}
+
+@each $item in label, badge {
+  .#{$item}-inverse, .#{$item}-inverse[href]           {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    color: $textColorLighter;
+
+    &:hover{
+      color: $grayLight;
+    }
+  }
+}

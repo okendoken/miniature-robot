@@ -11,7 +11,8 @@ $orange:                #eac85e !default;
 
 $lightGray: #f5f5f5;
 
-$textColorLight: $gray;
+$textColorLight: #777;
+$textColorLighter: #555;
 
 $headerLineHeight: 41px;
 
@@ -51,8 +52,24 @@ $btnDangerBackgroundHighlight:      $red !default;
 $btnInverseBackground:              $gray !default;
 $btnInverseBackgroundHighlight:     $gray !default;
 
+$warningText:             $orange !default;
+
+$errorText:               $red !default;
+
+$successText:             $green !default;
+
+$infoText:                $blue !default;
+
 //////////////////////////////////////
 // Font Awesome Variables Override  //
 //////////////////////////////////////
 
 $FontAwesomePath: 'font';
+
+
+@mixin hoverRed{
+  @include transition(color .15s);
+  &:hover{
+    color: $red;
+  }
+}

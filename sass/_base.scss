@@ -93,10 +93,142 @@
     font-weight: bold;
     display: block;
     font-size: 1.1em;
+    @include transition(color .15s);
   }
 
   .description{
     color: $grayLight;
     font-weight: 300;
+  }
+}
+
+/************************/
+/*       Content        */
+/************************/
+
+.content{
+  margin-top: 40px;
+}
+
+/************************/
+/*         Page         */
+/************************/
+
+.page-title{
+  margin: 0;
+  color: $textColorLighter;
+}
+
+.page-author{
+  margin-top: 10px;
+  font-size: $fontSizeLarge;
+  color: $textColorLight;
+
+  a{
+    text-decoration: none;
+    font-weight: bold;
+    color: $textColorLight;
+    @include hoverRed;
+  }
+}
+
+/************************/
+/*         Box          */
+/************************/
+
+.box{
+  margin-top: 30px;
+  border: 1px solid #ddd;
+}
+
+.problem-details{
+  padding: 30px;
+  background: $white;
+
+  .image{
+    display: block;
+  }
+}
+
+.problem-additional, .problem-category, .problem-author{
+  padding: 20px;
+  background: #F0F0F0;
+}
+
+.problem-additional{
+  .info{
+    color: $textColorLighter;
+  }
+
+  .info + .info{
+    margin-top: 5px;
+  }
+
+  .actions{
+    margin-top: 15px;
+  }
+}
+
+.problem-category{
+  .category{
+    font-weight: bold;
+    font-size: $fontSizeLarge;
+    a{
+      color: $textColorLighter;
+      text-decoration: none;
+      @include hoverRed;
+    }
+  }
+
+  .tags{
+    margin-top: 10px;
+  }
+}
+
+.problem-author{
+
+  .author-label{
+    font-size: $fontSizeLarge;
+    font-weight: bold;
+    color: $textColorLighter;
+  }
+
+  .author-info{
+    margin-top: 10px;
+    @include clearfix;
+  }
+
+  .author-details{
+    margin-left: 100px;
+  }
+
+  .image{
+    width: 80px;
+  }
+
+  .name{
+    font-weight: bold;
+  }
+
+  .city{
+    margin-top: 10px;
+  }
+
+  .name, .city{
+    a{
+      color: $textColor;
+      text-decoration: none;
+      @include hoverRed;
+    }
+  }
+
+  .problems-count a{
+    color: $textColorLight;
+    text-decoration: none;
+    @include hoverRed;
+  }
+
+  .actions{
+    margin-top: 10px;
   }
 }

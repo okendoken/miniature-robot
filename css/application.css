@@ -760,46 +760,46 @@ a.muted:focus {
 
 /* line 35, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 .text-warning {
-  color: #c09853;
+  color: #eac85e;
 }
 
 /* line 37, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #a47e3c;
+  color: #e4b931;
 }
 
 /* line 39, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 .text-error {
-  color: #b94a48;
+  color: #e5603b;
 }
 
 /* line 41, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 a.text-error:hover,
 a.text-error:focus {
-  color: #953b39;
+  color: #d1431c;
 }
 
 /* line 43, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 .text-info {
-  color: #3a87ad;
+  color: #618fb0;
 }
 
 /* line 45, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 a.text-info:hover,
 a.text-info:focus {
-  color: #2d6987;
+  color: #4a7594;
 }
 
 /* line 47, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 .text-success {
-  color: #468847;
+  color: #56bc76;
 }
 
 /* line 49, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 a.text-success:hover,
 a.text-success:focus {
-  color: #356635;
+  color: #3fa05e;
 }
 
 /* line 51, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
@@ -1615,7 +1615,7 @@ input[type="checkbox"][readonly] {
 .control-group.warning .control-label,
 .control-group.warning .help-block,
 .control-group.warning .help-inline {
-  color: #c09853;
+  color: #eac85e;
 }
 /* line 172, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.warning .checkbox,
@@ -1623,13 +1623,13 @@ input[type="checkbox"][readonly] {
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
-  color: #c09853;
+  color: #eac85e;
 }
 /* line 177, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
-  border-color: #c09853;
+  border-color: #eac85e;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1638,24 +1638,24 @@ input[type="checkbox"][readonly] {
 .control-group.warning input:focus,
 .control-group.warning select:focus,
 .control-group.warning textarea:focus {
-  border-color: #a47e3c;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #dbc59e;
+  border-color: #e4b931;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f6e7b8;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f6e7b8;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f6e7b8;
 }
 /* line 187, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.warning .input-prepend .add-on,
 .control-group.warning .input-append .add-on {
-  color: #c09853;
+  color: #eac85e;
   background-color: #fcf8e3;
-  border-color: #c09853;
+  border-color: #eac85e;
 }
 
 /* line 164, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.error .control-label,
 .control-group.error .help-block,
 .control-group.error .help-inline {
-  color: #b94a48;
+  color: #e5603b;
 }
 /* line 172, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.error .checkbox,
@@ -1663,13 +1663,13 @@ input[type="checkbox"][readonly] {
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  color: #b94a48;
+  color: #e5603b;
 }
 /* line 177, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.error input,
 .control-group.error select,
 .control-group.error textarea {
-  border-color: #b94a48;
+  border-color: #e5603b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1678,24 +1678,24 @@ input[type="checkbox"][readonly] {
 .control-group.error input:focus,
 .control-group.error select:focus,
 .control-group.error textarea:focus {
-  border-color: #953b39;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #d59392;
+  border-color: #d1431c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f1a995;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f1a995;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #f1a995;
 }
 /* line 187, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
-  color: #b94a48;
+  color: #e5603b;
   background-color: #f2dede;
-  border-color: #b94a48;
+  border-color: #e5603b;
 }
 
 /* line 164, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.success .control-label,
 .control-group.success .help-block,
 .control-group.success .help-inline {
-  color: #468847;
+  color: #56bc76;
 }
 /* line 172, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.success .checkbox,
@@ -1703,13 +1703,13 @@ input[type="checkbox"][readonly] {
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
-  color: #468847;
+  color: #56bc76;
 }
 /* line 177, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.success input,
 .control-group.success select,
 .control-group.success textarea {
-  border-color: #468847;
+  border-color: #56bc76;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1718,24 +1718,24 @@ input[type="checkbox"][readonly] {
 .control-group.success input:focus,
 .control-group.success select:focus,
 .control-group.success textarea:focus {
-  border-color: #356635;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7aba7b;
+  border-color: #3fa05e;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #9fd9b1;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #9fd9b1;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #9fd9b1;
 }
 /* line 187, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.success .input-prepend .add-on,
 .control-group.success .input-append .add-on {
-  color: #468847;
+  color: #56bc76;
   background-color: #dff0d8;
-  border-color: #468847;
+  border-color: #56bc76;
 }
 
 /* line 164, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.info .control-label,
 .control-group.info .help-block,
 .control-group.info .help-inline {
-  color: #3a87ad;
+  color: #618fb0;
 }
 /* line 172, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.info .checkbox,
@@ -1743,13 +1743,13 @@ input[type="checkbox"][readonly] {
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
-  color: #3a87ad;
+  color: #618fb0;
 }
 /* line 177, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.info input,
 .control-group.info select,
 .control-group.info textarea {
-  border-color: #3a87ad;
+  border-color: #618fb0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -1758,17 +1758,17 @@ input[type="checkbox"][readonly] {
 .control-group.info input:focus,
 .control-group.info select:focus,
 .control-group.info textarea:focus {
-  border-color: #2d6987;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #7ab5d3;
+  border-color: #4a7594;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a5bfd2;
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a5bfd2;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #a5bfd2;
 }
 /* line 187, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .control-group.info .input-prepend .add-on,
 .control-group.info .input-append .add-on {
-  color: #3a87ad;
+  color: #618fb0;
   background-color: #d9edf7;
-  border-color: #3a87ad;
+  border-color: #618fb0;
 }
 
 /* line 371, D:/projects/miniature-robot/sass/bootstrap/_forms.scss */
@@ -4268,7 +4268,7 @@ input[type="submit"].btn.btn-mini {
 /* line 18, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
 .alert,
 .alert h4 {
-  color: #c09853;
+  color: #eac85e;
 }
 
 /* line 22, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
@@ -4288,12 +4288,12 @@ input[type="submit"].btn.btn-mini {
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
-  color: #468847;
+  color: #56bc76;
 }
 
 /* line 43, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
 .alert-success h4 {
-  color: #468847;
+  color: #56bc76;
 }
 
 /* line 47, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
@@ -4301,25 +4301,25 @@ input[type="submit"].btn.btn-mini {
 .alert-error {
   background-color: #f2dede;
   border-color: #eed3d7;
-  color: #b94a48;
+  color: #e5603b;
 }
 
 /* line 53, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
 .alert-danger h4,
 .alert-error h4 {
-  color: #b94a48;
+  color: #e5603b;
 }
 
 /* line 56, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
 .alert-info {
   background-color: #d9edf7;
   border-color: #bce8f1;
-  color: #3a87ad;
+  color: #618fb0;
 }
 
 /* line 61, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
 .alert-info h4 {
-  color: #3a87ad;
+  color: #618fb0;
 }
 
 /* line 69, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
@@ -6203,12 +6203,12 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 54, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-important {
-  background-color: #b94a48;
+  background-color: #e5603b;
 }
 
 /* line 55, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-important[href] {
-  background-color: #953b39;
+  background-color: #d1431c;
 }
 
 /* line 57, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -6223,22 +6223,22 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 60, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-success {
-  background-color: #468847;
+  background-color: #56bc76;
 }
 
 /* line 61, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-success[href] {
-  background-color: #356635;
+  background-color: #3fa05e;
 }
 
 /* line 63, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-info {
-  background-color: #3a87ad;
+  background-color: #618fb0;
 }
 
 /* line 64, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-info[href] {
-  background-color: #2d6987;
+  background-color: #4a7594;
 }
 
 /* line 66, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -6253,12 +6253,12 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 54, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-important {
-  background-color: #b94a48;
+  background-color: #e5603b;
 }
 
 /* line 55, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-important[href] {
-  background-color: #953b39;
+  background-color: #d1431c;
 }
 
 /* line 57, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -6273,22 +6273,22 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 60, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-success {
-  background-color: #468847;
+  background-color: #56bc76;
 }
 
 /* line 61, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-success[href] {
-  background-color: #356635;
+  background-color: #3fa05e;
 }
 
 /* line 63, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-info {
-  background-color: #3a87ad;
+  background-color: #618fb0;
 }
 
 /* line 64, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-info[href] {
-  background-color: #2d6987;
+  background-color: #4a7594;
 }
 
 /* line 66, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -8354,6 +8354,40 @@ input[type="color"]:focus,
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+/* line 34, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.label, .badge {
+  text-shadow: none;
+}
+
+/* line 38, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.label {
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+}
+
+/* line 43, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.label-inverse, .label-inverse[href] {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #555555;
+}
+/* line 48, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.label-inverse:hover, .label-inverse[href]:hover {
+  color: #999999;
+}
+
+/* line 43, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.badge-inverse, .badge-inverse[href] {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  color: #555555;
+}
+/* line 48, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.badge-inverse:hover, .badge-inverse[href]:hover {
+  color: #999999;
 }
 
 /*
@@ -10649,14 +10683,15 @@ html, body {
 /* line 5, D:/projects/miniature-robot/sass/_general.scss */
 body {
   background: #f9f9f9;
+  padding-bottom: 100px;
 }
 
-/* line 9, D:/projects/miniature-robot/sass/_general.scss */
+/* line 10, D:/projects/miniature-robot/sass/_general.scss */
 ul, ol {
   margin: 0;
 }
 
-/* line 14, D:/projects/miniature-robot/sass/_general.scss */
+/* line 15, D:/projects/miniature-robot/sass/_general.scss */
 input[type=search], input.search {
   padding-left: 26px;
   background-color: white;
@@ -10723,7 +10758,7 @@ input[type=search], input.search {
 /* line 55, D:/projects/miniature-robot/sass/_base.scss */
 .logo a {
   text-decoration: none;
-  color: #555555;
+  color: #777777;
   line-height: 41px;
 }
 
@@ -10762,9 +10797,180 @@ input[type=search], input.search {
   font-weight: bold;
   display: block;
   font-size: 1.1em;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
 }
-/* line 98, D:/projects/miniature-robot/sass/_base.scss */
+/* line 99, D:/projects/miniature-robot/sass/_base.scss */
 .navigation .description {
   color: #999999;
   font-weight: 300;
+}
+
+/************************/
+/*       Content        */
+/************************/
+/* line 109, D:/projects/miniature-robot/sass/_base.scss */
+.content {
+  margin-top: 40px;
+}
+
+/************************/
+/*         Page         */
+/************************/
+/* line 117, D:/projects/miniature-robot/sass/_base.scss */
+.page-title {
+  margin: 0;
+  color: #555555;
+}
+
+/* line 122, D:/projects/miniature-robot/sass/_base.scss */
+.page-author {
+  margin-top: 10px;
+  font-size: 16.25px;
+  color: #777777;
+}
+/* line 127, D:/projects/miniature-robot/sass/_base.scss */
+.page-author a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #777777;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
+}
+/* line 72, D:/projects/miniature-robot/sass/_variables.scss */
+.page-author a:hover {
+  color: #e5603b;
+}
+
+/************************/
+/*         Box          */
+/************************/
+/* line 139, D:/projects/miniature-robot/sass/_base.scss */
+.box {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+}
+
+/* line 144, D:/projects/miniature-robot/sass/_base.scss */
+.problem-details {
+  padding: 30px;
+  background: white;
+}
+/* line 148, D:/projects/miniature-robot/sass/_base.scss */
+.problem-details .image {
+  display: block;
+}
+
+/* line 153, D:/projects/miniature-robot/sass/_base.scss */
+.problem-additional, .problem-category, .problem-author {
+  padding: 20px;
+  background: #F0F0F0;
+}
+
+/* line 159, D:/projects/miniature-robot/sass/_base.scss */
+.problem-additional .info {
+  color: #555555;
+}
+/* line 163, D:/projects/miniature-robot/sass/_base.scss */
+.problem-additional .info + .info {
+  margin-top: 5px;
+}
+/* line 167, D:/projects/miniature-robot/sass/_base.scss */
+.problem-additional .actions {
+  margin-top: 15px;
+}
+
+/* line 173, D:/projects/miniature-robot/sass/_base.scss */
+.problem-category .category {
+  font-weight: bold;
+  font-size: 16.25px;
+}
+/* line 176, D:/projects/miniature-robot/sass/_base.scss */
+.problem-category .category a {
+  color: #555555;
+  text-decoration: none;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
+}
+/* line 72, D:/projects/miniature-robot/sass/_variables.scss */
+.problem-category .category a:hover {
+  color: #e5603b;
+}
+/* line 183, D:/projects/miniature-robot/sass/_base.scss */
+.problem-category .tags {
+  margin-top: 10px;
+}
+
+/* line 190, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .author-label {
+  font-size: 16.25px;
+  font-weight: bold;
+  color: #555555;
+}
+/* line 196, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .author-info {
+  margin-top: 10px;
+  *zoom: 1;
+}
+/* line 15, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
+.problem-author .author-info:before, .problem-author .author-info:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 22, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
+.problem-author .author-info:after {
+  clear: both;
+}
+/* line 201, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .author-details {
+  margin-left: 100px;
+}
+/* line 205, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .image {
+  width: 80px;
+}
+/* line 209, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .name {
+  font-weight: bold;
+}
+/* line 213, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .city {
+  margin-top: 10px;
+}
+/* line 218, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .name a, .problem-author .city a {
+  color: #333333;
+  text-decoration: none;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
+}
+/* line 72, D:/projects/miniature-robot/sass/_variables.scss */
+.problem-author .name a:hover, .problem-author .city a:hover {
+  color: #e5603b;
+}
+/* line 225, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .problems-count a {
+  color: #777777;
+  text-decoration: none;
+  -webkit-transition: color 0.15s;
+  -moz-transition: color 0.15s;
+  -o-transition: color 0.15s;
+  transition: color 0.15s;
+}
+/* line 72, D:/projects/miniature-robot/sass/_variables.scss */
+.problem-author .problems-count a:hover {
+  color: #e5603b;
+}
+/* line 231, D:/projects/miniature-robot/sass/_base.scss */
+.problem-author .actions {
+  margin-top: 10px;
 }
