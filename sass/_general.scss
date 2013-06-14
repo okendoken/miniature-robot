@@ -9,3 +9,10 @@ body{
 ul, ol {
   margin: 0;
 }
+
+
+input[type=search], input.search {
+  padding-left: 26px;
+  background-color: $white;
+  background:url(../img/search.png) 5px 5px no-repeat $white;
+}

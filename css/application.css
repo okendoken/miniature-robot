@@ -257,7 +257,7 @@ textarea {
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #333333;
   background-color: white;
@@ -722,7 +722,7 @@ p {
 /* line 12, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 .lead {
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 19.5px;
   font-weight: 200;
   line-height: 30px;
 }
@@ -842,52 +842,52 @@ h3 {
 
 /* line 77, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h1 {
-  font-size: 38.5px;
+  font-size: 35.75px;
 }
 
 /* line 78, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h2 {
-  font-size: 31.5px;
+  font-size: 29.25px;
 }
 
 /* line 79, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h3 {
-  font-size: 24.5px;
+  font-size: 22.75px;
 }
 
 /* line 80, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h4 {
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 /* line 81, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h5 {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 82, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h6 {
-  font-size: 11.9px;
+  font-size: 11.05px;
 }
 
 /* line 84, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h1 small {
-  font-size: 24.5px;
+  font-size: 22.75px;
 }
 
 /* line 85, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h2 small {
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 /* line 86, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h3 small {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 87, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 h4 small {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 93, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
@@ -1020,7 +1020,7 @@ blockquote {
 /* line 196, D:/projects/miniature-robot/sass/bootstrap/_type.scss */
 blockquote p {
   margin-bottom: 0;
-  font-size: 17.5px;
+  font-size: 16.25px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -1077,7 +1077,7 @@ code,
 pre {
   padding: 0 3px 2px;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
-  font-size: 12px;
+  font-size: 11px;
   color: #333333;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1098,7 +1098,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 20px;
   word-break: break-all;
   word-wrap: break-word;
@@ -1149,7 +1149,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 19.5px;
   line-height: 40px;
   color: #333333;
   border: 0;
@@ -1167,7 +1167,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
 }
@@ -1208,7 +1208,7 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #555555;
   -webkit-border-radius: 0;
@@ -1850,7 +1850,7 @@ select:focus:invalid:focus {
 .input-prepend .uneditable-input,
 .input-prepend .dropdown-menu,
 .input-prepend .popover {
-  font-size: 14px;
+  font-size: 13px;
 }
 /* line 441, D:/projects/miniature-robot/sass/bootstrap/_forms.scss */
 .input-append input,
@@ -1884,7 +1884,7 @@ select:focus:invalid:focus {
   height: 20px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
   text-align: center;
@@ -1907,8 +1907,8 @@ select:focus:invalid:focus {
 /* line 472, D:/projects/miniature-robot/sass/bootstrap/_forms.scss */
 .input-append .active,
 .input-prepend .active {
-  background-color: #a9dba9;
-  border-color: #46a546;
+  background-color: #c4e7cf;
+  border-color: #56bc76;
 }
 
 /* line 480, D:/projects/miniature-robot/sass/bootstrap/_forms.scss */
@@ -3487,17 +3487,17 @@ table th[class*="span"],
 /* line 22, D:/projects/miniature-robot/sass/bootstrap/_wells.scss */
 .well-large {
   padding: 24px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 26, D:/projects/miniature-robot/sass/bootstrap/_wells.scss */
 .well-small {
   padding: 9px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 6, D:/projects/miniature-robot/sass/bootstrap/_component-animations.scss */
@@ -3565,7 +3565,7 @@ button.close {
   *zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   text-align: center;
   vertical-align: middle;
@@ -3573,16 +3573,16 @@ button.close {
   color: #333333;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   background-color: whitesmoke;
-  background-image: -moz-linear-gradient(top, white, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
-  background-image: -o-linear-gradient(top, white, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(whitesmoke), to(whitesmoke));
+  background-image: -webkit-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: -o-linear-gradient(top, whitesmoke, whitesmoke);
+  background-image: linear-gradient(to bottom, #f5f5f5, #f5f5f5);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFE6E6E6', GradientType=0);
-  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF5F5F5', endColorstr='#FFF5F5F5', GradientType=0);
+  border-color: whitesmoke whitesmoke #cfcfcf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #e6e6e6;
+  *background-color: whitesmoke;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   border: 1px solid #cccccc;
@@ -3599,12 +3599,12 @@ button.close {
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
   color: #333333;
-  background-color: #e6e6e6;
-  *background-color: #d9d9d9;
+  background-color: whitesmoke;
+  *background-color: #e8e8e8;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn:active, .btn.active {
-  background-color: #cccccc \9;
+  background-color: gainsboro \9;
 }
 /* line 61, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn:first-child {
@@ -3648,10 +3648,10 @@ button.close {
 /* line 70, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-large {
   padding: 11px 19px;
-  font-size: 17.5px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  font-size: 16.25px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 76, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
@@ -3663,10 +3663,10 @@ button.close {
 /* line 81, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-small {
   padding: 2px 10px;
-  font-size: 11.9px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  font-size: 11.05px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 87, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
@@ -3684,10 +3684,10 @@ button.close {
 /* line 96, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-mini {
   padding: 0px 6px;
-  font-size: 10.5px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  font-size: 9.75px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 /* line 106, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
@@ -3727,116 +3727,116 @@ input[type="button"].btn-block {
 .btn-primary {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #006ccc;
-  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
-  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
-  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-color: #618fb0;
+  background-image: -moz-linear-gradient(top, #618fb0, #618fb0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#618fb0), to(#618fb0));
+  background-image: -webkit-linear-gradient(top, #618fb0, #618fb0);
+  background-image: -o-linear-gradient(top, #618fb0, #618fb0);
+  background-image: linear-gradient(to bottom, #618fb0, #618fb0);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0088CC', endColorstr='#FF0044CC', GradientType=0);
-  border-color: #0044cc #0044cc #002a80;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF618FB0', endColorstr='#FF618FB0', GradientType=0);
+  border-color: #618fb0 #618fb0 #426883;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #0044cc;
+  *background-color: #618fb0;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
   color: white;
-  background-color: #0044cc;
-  *background-color: #003bb3;
+  background-color: #618fb0;
+  *background-color: #5383a5;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-primary:active, .btn-primary.active {
-  background-color: #003399 \9;
+  background-color: #4a7594 \9;
 }
 
 /* line 149, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-warning {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #f9a732;
-  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
-  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
-  background-image: -o-linear-gradient(top, #fbb450, #f89406);
-  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-color: #eac85e;
+  background-image: -moz-linear-gradient(top, #eac85e, #eac85e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eac85e), to(#eac85e));
+  background-image: -webkit-linear-gradient(top, #eac85e, #eac85e);
+  background-image: -o-linear-gradient(top, #eac85e, #eac85e);
+  background-image: linear-gradient(to bottom, #eac85e, #eac85e);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFBB450', endColorstr='#FFF89406', GradientType=0);
-  border-color: #f89406 #f89406 #ad6704;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEAC85E', endColorstr='#FFEAC85E', GradientType=0);
+  border-color: #eac85e #eac85e #deaf1d;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #f89406;
+  *background-color: #eac85e;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .btn-warning.disabled, .btn-warning[disabled] {
   color: white;
-  background-color: #f89406;
-  *background-color: #df8505;
+  background-color: #eac85e;
+  *background-color: #e7c047;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-warning:active, .btn-warning.active {
-  background-color: #c67605 \9;
+  background-color: #e4b931 \9;
 }
 
 /* line 153, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-danger {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #da4e49;
-  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-color: #e5603b;
+  background-image: -moz-linear-gradient(top, #e5603b, #e5603b);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5603b), to(#e5603b));
+  background-image: -webkit-linear-gradient(top, #e5603b, #e5603b);
+  background-image: -o-linear-gradient(top, #e5603b, #e5603b);
+  background-image: linear-gradient(to bottom, #e5603b, #e5603b);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEE5F5B', endColorstr='#FFBD362F', GradientType=0);
-  border-color: #bd362f #bd362f #802420;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFE5603B', endColorstr='#FFE5603B', GradientType=0);
+  border-color: #e5603b #e5603b #bb3c19;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #bd362f;
+  *background-color: #e5603b;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
   color: white;
-  background-color: #bd362f;
-  *background-color: #a9302a;
+  background-color: #e5603b;
+  *background-color: #e24e24;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-danger:active, .btn-danger.active {
-  background-color: #942a25 \9;
+  background-color: #d1431c \9;
 }
 
 /* line 157, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
 .btn-success {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #5bb65b;
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
+  background-color: #56bc76;
+  background-image: -moz-linear-gradient(top, #56bc76, #56bc76);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#56bc76), to(#56bc76));
+  background-image: -webkit-linear-gradient(top, #56bc76, #56bc76);
+  background-image: -o-linear-gradient(top, #56bc76, #56bc76);
+  background-image: linear-gradient(to bottom, #56bc76, #56bc76);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF62C462', endColorstr='#FF51A351', GradientType=0);
-  border-color: #51a351 #51a351 #387038;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF56BC76', endColorstr='#FF56BC76', GradientType=0);
+  border-color: #56bc76 #56bc76 #388d53;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #51a351;
+  *background-color: #56bc76;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
   color: white;
-  background-color: #51a351;
-  *background-color: #499249;
+  background-color: #56bc76;
+  *background-color: #47b268;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-success:active, .btn-success.active {
-  background-color: #408140 \9;
+  background-color: #3fa05e \9;
 }
 
 /* line 161, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
@@ -3872,29 +3872,29 @@ input[type="button"].btn-block {
 .btn-inverse {
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #363636;
-  background-image: -moz-linear-gradient(top, #444444, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
-  background-image: -webkit-linear-gradient(top, #444444, #222222);
-  background-image: -o-linear-gradient(top, #444444, #222222);
-  background-image: linear-gradient(to bottom, #444444, #222222);
+  background-color: #555555;
+  background-image: -moz-linear-gradient(top, #555555, #555555);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#555555), to(#555555));
+  background-image: -webkit-linear-gradient(top, #555555, #555555);
+  background-image: -o-linear-gradient(top, #555555, #555555);
+  background-image: linear-gradient(to bottom, #555555, #555555);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF444444', endColorstr='#FF222222', GradientType=0);
-  border-color: #222222 #222222 black;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF555555', endColorstr='#FF555555', GradientType=0);
+  border-color: #555555 #555555 #2f2f2f;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  *background-color: #222222;
+  *background-color: #555555;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 /* line 513, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
   color: white;
-  background-color: #222222;
-  *background-color: #151515;
+  background-color: #555555;
+  *background-color: #484848;
 }
 /* line 521, D:/projects/miniature-robot/sass/bootstrap/_mixins.scss */
 .btn-inverse:active, .btn-inverse.active {
-  background-color: #090909 \9;
+  background-color: #3b3b3b \9;
 }
 
 /* line 174, D:/projects/miniature-robot/sass/bootstrap/_buttons.scss */
@@ -4016,22 +4016,22 @@ input[type="submit"].btn.btn-mini {
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /* line 49, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-mini {
-  font-size: 10.5px;
+  font-size: 9.75px;
 }
 
 /* line 52, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-small {
-  font-size: 11.9px;
+  font-size: 11.05px;
 }
 
 /* line 55, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn-large {
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 
 /* line 60, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
@@ -4059,23 +4059,23 @@ input[type="submit"].btn.btn-mini {
 /* line 72, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:first-child {
   margin-left: 0;
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 
 /* line 78, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group > .btn.large:last-child,
 .btn-group > .large.dropdown-toggle {
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 87, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
@@ -4134,23 +4134,23 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 137, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn.dropdown-toggle {
-  background-color: #e6e6e6;
+  background-color: whitesmoke;
 }
 /* line 140, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #0044cc;
+  background-color: #618fb0;
 }
 /* line 143, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-warning.dropdown-toggle {
-  background-color: #f89406;
+  background-color: #eac85e;
 }
 /* line 146, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-danger.dropdown-toggle {
-  background-color: #bd362f;
+  background-color: #e5603b;
 }
 /* line 149, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-success.dropdown-toggle {
-  background-color: #51a351;
+  background-color: #56bc76;
 }
 /* line 152, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-info.dropdown-toggle {
@@ -4158,7 +4158,7 @@ input[type="submit"].btn.btn-mini {
 }
 /* line 155, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group.open .btn-inverse.dropdown-toggle {
-  background-color: #222222;
+  background-color: #555555;
 }
 
 /* line 162, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
@@ -4241,16 +4241,16 @@ input[type="submit"].btn.btn-mini {
 
 /* line 224, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-large:first-child {
-  -webkit-border-radius: 6px 6px 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 227, D:/projects/miniature-robot/sass/bootstrap/_button-groups.scss */
 .btn-group-vertical > .btn-large:last-child {
-  -webkit-border-radius: 0 0 6px 6px;
-  -moz-border-radius: 0 0 6px 6px;
-  border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0 0 0 0;
+  -moz-border-radius: 0 0 0 0;
+  border-radius: 0 0 0 0;
 }
 
 /* line 9, D:/projects/miniature-robot/sass/bootstrap/_alerts.scss */
@@ -5547,27 +5547,27 @@ input[type="submit"].btn.btn-mini {
 .pagination-large ul > li > a,
 .pagination-large ul > li > span {
   padding: 11px 19px;
-  font-size: 17.5px;
+  font-size: 16.25px;
 }
 /* line 86, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
 .pagination-large ul > li:first-child > a,
 .pagination-large ul > li:first-child > span {
-  -webkit-border-top-left-radius: 6px;
-  -moz-border-radius-topleft: 6px;
-  border-top-left-radius: 6px;
-  -webkit-border-bottom-left-radius: 6px;
-  -moz-border-radius-bottomleft: 6px;
-  border-bottom-left-radius: 6px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 90, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
 .pagination-large ul > li:last-child > a,
 .pagination-large ul > li:last-child > span {
-  -webkit-border-top-right-radius: 6px;
-  -moz-border-radius-topright: 6px;
-  border-top-right-radius: 6px;
-  -webkit-border-bottom-right-radius: 6px;
-  -moz-border-radius-bottomright: 6px;
-  border-bottom-right-radius: 6px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 99, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
@@ -5575,38 +5575,38 @@ input[type="submit"].btn.btn-mini {
 .pagination-mini ul > li:first-child > span,
 .pagination-small ul > li:first-child > a,
 .pagination-small ul > li:first-child > span {
-  -webkit-border-top-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  border-top-left-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
 }
 /* line 103, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
 .pagination-mini ul > li:last-child > a,
 .pagination-mini ul > li:last-child > span,
 .pagination-small ul > li:last-child > a,
 .pagination-small ul > li:last-child > span {
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-right-radius: 3px;
-  -webkit-border-bottom-right-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
 }
 
 /* line 111, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
 .pagination-small ul > li > a,
 .pagination-small ul > li > span {
   padding: 2px 10px;
-  font-size: 11.9px;
+  font-size: 11.05px;
 }
 
 /* line 119, D:/projects/miniature-robot/sass/bootstrap/_pagination.scss */
 .pagination-mini ul > li > a,
 .pagination-mini ul > li > span {
   padding: 0px 6px;
-  font-size: 10.5px;
+  font-size: 9.75px;
 }
 
 /* line 6, D:/projects/miniature-robot/sass/bootstrap/_pager.scss */
@@ -6162,7 +6162,7 @@ a.thumbnail:focus {
 .badge {
   display: inline-block;
   padding: 2px 4px;
-  font-size: 11.844px;
+  font-size: 10.998px;
   font-weight: bold;
   line-height: 14px;
   color: white;
@@ -6213,12 +6213,12 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 57, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-warning {
-  background-color: #f89406;
+  background-color: #eac85e;
 }
 
 /* line 58, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .label-warning[href] {
-  background-color: #c67605;
+  background-color: #e4b931;
 }
 
 /* line 60, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -6263,12 +6263,12 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 57, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-warning {
-  background-color: #f89406;
+  background-color: #eac85e;
 }
 
 /* line 58, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
 .badge-warning[href] {
-  background-color: #c67605;
+  background-color: #e4b931;
 }
 
 /* line 60, D:/projects/miniature-robot/sass/bootstrap/_labels-badges.scss */
@@ -6522,19 +6522,19 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 117, D:/projects/miniature-robot/sass/bootstrap/_progress-bars.scss */
 .progress-warning .bar, .progress .bar-warning {
-  background-color: #f9a732;
-  background-image: -moz-linear-gradient(top, #fbb450, #f89406);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fbb450), to(#f89406));
-  background-image: -webkit-linear-gradient(top, #fbb450, #f89406);
-  background-image: -o-linear-gradient(top, #fbb450, #f89406);
-  background-image: linear-gradient(to bottom, #fbb450, #f89406);
+  background-color: #efd586;
+  background-image: -moz-linear-gradient(top, #f3dfa2, #eac85e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f3dfa2), to(#eac85e));
+  background-image: -webkit-linear-gradient(top, #f3dfa2, #eac85e);
+  background-image: -o-linear-gradient(top, #f3dfa2, #eac85e);
+  background-image: linear-gradient(to bottom, #f3dfa2, #eac85e);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFBB450', endColorstr='#FFF89406', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF3DFA2', endColorstr='#FFEAC85E', GradientType=0);
 }
 
 /* line 120, D:/projects/miniature-robot/sass/bootstrap/_progress-bars.scss */
 .progress-warning.progress-striped .bar, .progress-striped .bar-warning {
-  background-color: #fbb450;
+  background-color: #f3dfa2;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -8316,6 +8316,46 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
     overflow: visible !important;
   }
 }
+/* line 1, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.btn {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 5, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+.btn:hover {
+  -webkit-box-shadow: inset 0 1px 1px rgba(85, 85, 85, 0.3);
+  -moz-box-shadow: inset 0 1px 1px rgba(85, 85, 85, 0.3);
+  box-shadow: inset 0 1px 1px rgba(85, 85, 85, 0.3);
+}
+
+/* line 26, D:/projects/miniature-robot/sass/_bootstrap-override.scss */
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: #618fb0;
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
 /*
  *  Font Awesome 3.2.0
  *  the iconic font designed for Bootstrap
@@ -10616,6 +10656,13 @@ ul, ol {
   margin: 0;
 }
 
+/* line 14, D:/projects/miniature-robot/sass/_general.scss */
+input[type=search], input.search {
+  padding-left: 26px;
+  background-color: white;
+  background: url(../img/search.png) 5px 5px no-repeat white;
+}
+
 /************************/
 /*         Header       */
 /************************/
@@ -10627,17 +10674,53 @@ ul, ol {
   background: white;
 }
 
+/* line 12, D:/projects/miniature-robot/sass/_base.scss */
+.header-left {
+  float: left;
+}
+
+/* line 16, D:/projects/miniature-robot/sass/_base.scss */
+.header-right {
+  float: right;
+}
+/* line 19, D:/projects/miniature-robot/sass/_base.scss */
+.header-right .actions {
+  float: right;
+  line-height: 41px;
+  vertical-align: middle;
+}
+
+/* line 26, D:/projects/miniature-robot/sass/_base.scss */
+.header-form-search {
+  float: right;
+  margin: 0;
+  margin-right: 30px;
+  line-height: 41px;
+}
+/* line 32, D:/projects/miniature-robot/sass/_base.scss */
+.header-form-search label, .header-form-search input {
+  margin: 0;
+}
+/* line 36, D:/projects/miniature-robot/sass/_base.scss */
+.header-form-search label {
+  display: inline-block;
+}
+/* line 40, D:/projects/miniature-robot/sass/_base.scss */
+.header-form-search input {
+  width: 160px;
+}
+
 /************************/
 /*         Logo         */
 /************************/
-/* line 16, D:/projects/miniature-robot/sass/_base.scss */
+/* line 49, D:/projects/miniature-robot/sass/_base.scss */
 .logo {
-  font-size: 24.5px;
+  font-size: 22.75px;
   font-weight: bold;
   text-transform: uppercase;
   float: left;
 }
-/* line 22, D:/projects/miniature-robot/sass/_base.scss */
+/* line 55, D:/projects/miniature-robot/sass/_base.scss */
 .logo a {
   text-decoration: none;
   color: #555555;
@@ -10647,36 +10730,41 @@ ul, ol {
 /************************/
 /*     Navigation       */
 /************************/
-/* line 33, D:/projects/miniature-robot/sass/_base.scss */
+/* line 66, D:/projects/miniature-robot/sass/_base.scss */
 .navigation {
-  margin-left: 120px;
+  margin-left: 80px;
   float: left;
 }
-/* line 37, D:/projects/miniature-robot/sass/_base.scss */
+/* line 70, D:/projects/miniature-robot/sass/_base.scss */
 .navigation li {
   list-style: none;
   float: left;
 }
-/* line 41, D:/projects/miniature-robot/sass/_base.scss */
+/* line 74, D:/projects/miniature-robot/sass/_base.scss */
 .navigation li > a {
   text-decoration: none;
   color: #333333;
+  display: block;
 }
-/* line 46, D:/projects/miniature-robot/sass/_base.scss */
+/* line 79, D:/projects/miniature-robot/sass/_base.scss */
+.navigation li > a:hover .action {
+  color: #e5603b;
+}
+/* line 84, D:/projects/miniature-robot/sass/_base.scss */
 .navigation li + li {
   margin-left: 20px;
   padding-left: 20px;
   border-left: 1px dashed #eeeeee;
 }
-/* line 53, D:/projects/miniature-robot/sass/_base.scss */
+/* line 91, D:/projects/miniature-robot/sass/_base.scss */
 .navigation .action {
   text-transform: uppercase;
   font-weight: bold;
   display: block;
+  font-size: 1.1em;
 }
-/* line 59, D:/projects/miniature-robot/sass/_base.scss */
+/* line 98, D:/projects/miniature-robot/sass/_base.scss */
 .navigation .description {
   color: #999999;
   font-weight: 300;
-  font-size: 11.9px;
 }
