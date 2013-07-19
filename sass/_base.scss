@@ -148,6 +148,29 @@
   .image{
     display: block;
   }
+
+  footer{
+    margin: 30px -30px -30px;
+    padding: 20px 30px;
+    background: #F0F0F0;
+    @include clearfix;
+
+    .info{
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+
+    .key{
+      text-transform: uppercase;
+      color: $textColorLight;
+    }
+
+    .value{
+      font-size: $fontSizeLarge;
+      font-weight: bold;
+    }
+  }
 }
 
 .problem-additional, .problem-category, .problem-author{
